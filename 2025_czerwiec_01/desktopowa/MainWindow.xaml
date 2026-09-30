@@ -1,0 +1,32 @@
+﻿<Window x:Class="desktopowa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:desktopowa"
+        mc:Ignorable="d"
+        Background="Cornsilk"
+        Title="Wzornik kolorów RGB. Wykonał numer zdającego" Height="450" Width="800">
+    <Grid>
+        <Rectangle Name="Rectangle" Fill="White" Height="75" VerticalAlignment="Top" Margin="50,20,50,0"/>
+        <TextBlock Text="Dobierz kolor suwakami i zapisz przyciskiem:" VerticalAlignment="Top" Margin="50,120,0,0" />
+        <Grid VerticalAlignment="Top" Margin="50,150,50,0">
+            <TextBlock Text="R" HorizontalAlignment="Left" />
+            <Slider Name="Slider1" Margin="20,0,20,0" Minimum="0" Maximum="255" Value="255" ValueChanged="Slider_ValueChanged" />
+            <TextBlock Name="Value1" Text="255" HorizontalAlignment="Right" />
+        </Grid>
+        <Grid VerticalAlignment="Top" Margin="50,190,50,0">
+            <TextBlock Text="G" HorizontalAlignment="Left" />
+            <Slider Name="Slider2" Margin="20,0,20,0" Minimum="0" Maximum="255" Value="255" ValueChanged="Slider_ValueChanged" />
+            <TextBlock Name="Value2" Text="255" HorizontalAlignment="Right" />
+        </Grid>
+        <Grid VerticalAlignment="Top" Margin="50,230,50,0">
+            <TextBlock Text="B" HorizontalAlignment="Left" />
+            <Slider Name="Slider3" Margin="20,0,20,0" Minimum="0" Maximum="255" Value="255" ValueChanged="Slider_ValueChanged" />
+            <TextBlock Name="Value3" Text="255" HorizontalAlignment="Right" />
+        </Grid>
+
+        <Button Name="Btn" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,260,0,0" Width="150" Height="25" Background="Peru" RenderTransformOrigin="0.498,1.286" Click="Btn_Click" Content="Pobierz" />
+        <Label Name="Label" Content="255, 255, 255" Background="White" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,300,0,0" Width="150" Height="25" />
+    </Grid>
+</Window>
