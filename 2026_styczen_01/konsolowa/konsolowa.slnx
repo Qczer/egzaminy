@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../testy/testy.csproj" Id="31c9e0ff-cb45-4408-8997-21296a0faeff" />
+  <Project Path="konsolowa.csproj" Id="d2fad449-b356-423b-92bb-5d8b58ed499e" />
+</Solution>

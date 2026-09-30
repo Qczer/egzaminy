@@ -1,0 +1,8 @@
+Wersja	Windows 11 Pro
+Wersja	25H2
+Zainstalowano dnia	‎18.‎09.‎2025
+Kompilacja systemu operacyjnego	26200.9445
+Środowisko	Pakiet Windows Feature Experience 1000.26100.360.0
+
+Visual Studio Code, Android Studio
+C#, Java
